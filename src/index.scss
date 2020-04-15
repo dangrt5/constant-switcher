@@ -1,0 +1,35 @@
+.container {
+  background: #fff;
+  overflow: auto;
+  padding: 24px;
+
+  .title {
+    margin-bottom: 4px;
+  }
+
+  .description {
+    margin-bottom: 16px;
+  }
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  background: #fff;
+  padding: 24px 0;
+
+  button:first-of-type {
+    margin-right: 16px;
+  }
+}
+
+.custom-input {
+  border: 1px solid #eceded;
+  padding: 8px 16px;
+  border-radius: 8px;
+  outline: none;
+
+  &:focus {
+    border: 1px solid #0095a0;
+  }
+}
